@@ -33,6 +33,11 @@ public class LineRendererPatternShifter : MonoBehaviour
         mTime += Time.deltaTime;
         if (mTime >= 1)
             mTime = 0;
+        
+        mMaterial.SetVector("_WorldPosA", objectA.position);
+        mMaterial.SetVector("_WorldPosB", objectB.position);
+        
+        Debug.Log(objectA.position);
     }
 
     public enum FlowDirection

@@ -3,10 +3,15 @@ guid: d4edb881654f4174ebc57b9382c49620
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ventilation_LP_UV_module_polySurface27Mat
+    second: {fileID: 2100000, guid: 27127d52d2cae9d4885625bc8947201c, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
+    materialName: 2
     materialSearch: 1
     materialLocation: 1
   animations:

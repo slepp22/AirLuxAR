@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="ARONE_ICOCA" size="5.000000 3.142132" />
+    <ImageTarget name="ARONEIMG" size="5.000000 7.449334" />
+  </Tracking>
+</QCARConfig>
