@@ -14,6 +14,7 @@ public struct RoomConfig
         if (inputParameters.Length != 4)
         {
             Debug.Log("Bad Parameter, returning invalid room config");
+            Debug.Log("This should do something else");
             IsBigRoom = false;
             IsCrowded = false;
             AreMasksOn = false;
