@@ -37,7 +37,7 @@ public class LineRendererPatternShifter : MonoBehaviour
         mMaterial.SetVector("_WorldPosA", objectA.position);
         mMaterial.SetVector("_WorldPosB", objectB.position);
         
-        Debug.Log(objectA.position);
+        //Debug.Log(objectA.position);
     }
 
     public enum FlowDirection
